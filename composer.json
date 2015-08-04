@@ -1,5 +1,5 @@
 {
-    "name": "prij/silverstripe-restrictedpage",
+    "name": "prij/silverstripe-iprestrictedpage",
     "description": "Simple SilverStripe module that allows pages to be viewable to certain IP addresses only.",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "ip restriction", "ip access", "ip"],
@@ -15,7 +15,7 @@
     },
     "extra": {
         "extra": {
-            "installer-name": "restrictedpage"
+            "installer-name": "iprestrictedpage"
         }
     }
 }
