@@ -1,0 +1,6 @@
+Page:
+  extensions:
+    - RestrictedPage
+Page_Controller:
+  extensions:
+    - RestrictedPage_Controller
