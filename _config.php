@@ -5,5 +5,5 @@
  * Works with has_many and many_many relations.
  */
 
-define('RESTRICTEDPAGES_DIR', basename(dirname(__FILE__)));
-define('RESTRICTEDPAGES_PATH', BASE_PATH . '/' . RESTRICTEDPAGES_DIR);
+define('IPRESTRICTEDPAGE_DIR', basename(dirname(__FILE__)));
+define('IPRESTRICTEDPAGE_PATH', BASE_PATH . '/' . IPRESTRICTEDPAGE_DIR);

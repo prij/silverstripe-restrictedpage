@@ -1,6 +1,6 @@
 Page:
   extensions:
-    - RestrictedPage
+    - IPRestrictedPage
 Page_Controller:
   extensions:
-    - RestrictedPage_Controller
+    - IPRestrictedPage_Controller

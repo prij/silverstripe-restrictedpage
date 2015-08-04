@@ -1,5 +1,5 @@
 <?php
-class RestrictedPage extends DataExtension
+class IPRestrictedPage extends DataExtension
 {
 	private static $db = array(
 		'IPAddresses' => 'Text'
@@ -37,7 +37,7 @@ class RestrictedPage extends DataExtension
 	}
 }
 
-class RestrictedPage_Controller extends DataExtension {
+class IPRestrictedPage_Controller extends DataExtension {
 	
 	public function onAfterInit() {
 		if($this->owner->ipAddresses()){
