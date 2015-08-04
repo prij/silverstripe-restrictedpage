@@ -12,7 +12,7 @@ class RestrictedPage extends DataExtension
 
 	// Return array of valid IP addresses
 	public function IPAddresses(){
-		$returnArray = [];
+		$returnArray = array();
 		$ip = explode("\n",$this->owner->IPAddresses);
 		
 		if(is_array($ip)){
