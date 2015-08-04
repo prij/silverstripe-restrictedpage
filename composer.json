@@ -1,21 +1,20 @@
 {
-    "name": "bummzack/sortablefile",
-    "description": "An extension for SilverStripe 3.1 that allows sorting of multiple attached images (extends UploadField).",
+    "name": "prij/silverstripe-restrictedpage",
+    "description": "Simple SilverStripe moduel that allows pages to be viewable to certain IP addresses only.",
     "type": "silverstripe-module",
-    "keywords": ["silverstripe", "CMS", "sortable"],
-    "license": "BSD-3-Clause",
+    "keywords": ["silverstripe", "ip restriction", "ip access", "ip"],
     "authors": [
-        {
-            "name": "bummzack"
-        }
+    {
+        "name": "prij"
+    }
     ],
     "require":
     {
         "silverstripe/framework": "~3.1"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.1.x-dev"
+        "extra": {
+            "installer-name": "restrictedpage"
         }
     }
 }
